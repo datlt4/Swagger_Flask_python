@@ -1,0 +1,403 @@
+{
+	"info": {
+		"_postman_id": "3710a092-716e-4b04-b853-9f13e3ba9a26",
+		"name": "flask_demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "18372981"
+	},
+	"item": [
+		{
+			"name": "basic_api/hello_world",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/basic_api/hello_world",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"basic_api",
+						"hello_world"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "documented_api/hello_world",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/documented_api/hello_world",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"documented_api",
+						"hello_world"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "basic_api/entities/<id>-GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/basic_api/entities/7",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"basic_api",
+						"entities",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "documented_api/entities-GET Copy",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/basic_api/entities/7",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"basic_api",
+						"entities",
+						"7"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "basic_api/entities/<id>-PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Đặng Thị Huyền Trang\", \"dob\":\"07-11-1999\"}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/basic_api/entities/11",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"basic_api",
+						"entities",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "documented_api/entities/<id>-PUT",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Đặng Thị Huyền Trang\", \"dob\":\"07-11-1999\"}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/documented_api/entities/1",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"documented_api",
+						"entities",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "basic_api/entities/<id>-DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/basic_api/entities/1999",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"basic_api",
+						"entities",
+						"1999"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "documented_api/entities/<id>-DELETE",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/documented_api/entities/1999",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"documented_api",
+						"entities",
+						"1999"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "basic_api/entities-GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/basic_api/entities",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"basic_api",
+						"entities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "documented_api/entities-GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8000/documented_api/entities",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"documented_api",
+						"entities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "basic_api/entities-POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Đặng Thị Huyền Trang\", \"dob\":\"07-11-1999\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/basic_api/entities",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"basic_api",
+						"entities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "documented_api/entities-POST",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Đặng Thị Huyền Trang\", \"dob\":\"07-11-1999\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/documented_api/entities",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"documented_api",
+						"entities"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "jinja_template-POST",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Đặng Thị Huyền Trang\", \"dob\":\"07-11-1999\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/jinja_template?top=top_text&bottom=bottom_text",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"jinja_template"
+					],
+					"query": [
+						{
+							"key": "top",
+							"value": "top_text"
+						},
+						{
+							"key": "bottom",
+							"value": "bottom_text"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "documented_api/jinja_template-POST",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"name\":\"Đặng Thị Huyền Trang\", \"dob\":\"07-11-1999\"}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:8000/documented_api/jinja_template?top=top_text&bottom=bottom_text",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"documented_api",
+						"jinja_template"
+					],
+					"query": [
+						{
+							"key": "top",
+							"value": "top_text"
+						},
+						{
+							"key": "bottom",
+							"value": "bottom_text"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
